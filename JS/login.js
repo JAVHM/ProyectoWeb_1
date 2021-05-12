@@ -9,7 +9,7 @@ var nombreEscogido;
 const generarNombreAleatorio =()=>{
     var nombre= document.querySelector("#input_nombre");
     var posAleatorio=parseInt(Math.random()*12);
-    nombre.placeholder=nombreAleatorios[posAleatorio] + " anonimo";
+    nombre.placeholder=nombreAleatorios[posAleatorio];
 }
 //Genera los nombres aleatorios pero se puede mejorar 
 window.addEventListener("load", generarNombreAleatorio); 
